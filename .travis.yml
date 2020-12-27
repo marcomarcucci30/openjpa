@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - openjdk13
+
+addons:
+  sonarcloud:
+    organization: "marcomarcucci30"
+    token: 58b39d2736f0101ce60d00a68327d06892515b8f
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - mvn clean verify sonar:sonar
