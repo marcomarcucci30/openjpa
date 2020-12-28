@@ -63,8 +63,8 @@ public class PinCacheMapTest {
    		 {new CacheMapEntity(null, null, false, false), false, 0},
    		 
    		 //coverage
-//   		 {new CacheMapEntity(new Object(), obj, true, true), true, 1},
-//   		 {new CacheMapEntity(null, obj, true, false), true, 1},
+   		 {new CacheMapEntity(new Object(), obj, true, true), true, 1},
+   		 {new CacheMapEntity(null, obj, true, false), true, 1},
         });
 
     }

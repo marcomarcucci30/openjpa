@@ -70,8 +70,8 @@ public class PutCacheMapTest {
     		 {new CacheMapEntity(new Object(), objValue, true, true, 1, 1), objValue, 2},
     		 
     		 //coverage
-//    		 {new CacheMapEntity(new Object(), objValue, true, false, 2,0),objValue,1},
-//    		 {new CacheMapEntity(new Object(), objValue, false, false, 1,0), null,1},
+    		 {new CacheMapEntity(new Object(), objValue, true, false, 2,0),objValue,1},
+    		 {new CacheMapEntity(new Object(), objValue, false, false, 1,0), null,1},
          });
         
 

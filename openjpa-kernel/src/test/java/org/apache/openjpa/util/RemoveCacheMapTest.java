@@ -62,8 +62,8 @@ public class RemoveCacheMapTest {
       		 {new CacheMapEntity(null, null, false, false), null, 0},
       		 
       		 //coverage
-//      		 {new CacheMapEntity(new Object(), objValue, true, true), objValue, 0},
-//      		 {new CacheMapEntity(null, objValue, true, false), objValue, 0},
+      		 {new CacheMapEntity(new Object(), objValue, true, true), objValue, 0},
+      		 {new CacheMapEntity(null, objValue, true, false), objValue, 0},
            });
 
 

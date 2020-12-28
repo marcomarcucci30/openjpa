@@ -53,9 +53,9 @@ public class GetCacheMapTest {
     		 {new CacheMapEntity(new Object(), obj, false, false,1,0), null},
     		 
     		 //branch coverage
-//    		 {new CacheMapEntity(new Object(), obj, true, false,1,0), obj},
-//    		 {new CacheMapEntity(new Object(), obj, false, false, 1, 1), obj},
-//    		 
+    		 {new CacheMapEntity(new Object(), obj, true, false,1,0), obj},
+    		 {new CacheMapEntity(new Object(), obj, false, false, 1, 1), obj},
+    		 
          });
         
 

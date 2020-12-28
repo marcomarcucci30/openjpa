@@ -163,9 +163,9 @@
     <profiles>
         <profile>
             <id>pit-test</id>
-            <activation>
+            <!-- <activation>
                 <activeByDefault>true</activeByDefault>
-            </activation>
+            </activation> -->
             <build>
                 <plugins>
                     <plugin>

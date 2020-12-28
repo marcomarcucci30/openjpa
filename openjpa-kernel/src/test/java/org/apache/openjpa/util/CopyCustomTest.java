@@ -67,12 +67,12 @@ public class CopyCustomTest {
             //{entityNonValid.initializeGenricObject(new String()), null},
 
             //line, branch and mutation coverage
-//            {entityManageable.initializeEntityManageable(), null},
-//            {entityValid.initializeEntityValid(r.nextInt(), true), entityValid.getObject()}, 
-//            {entityMap.initializeEntityMap(r.nextInt(), r.nextInt(), false), entityMap.getObject()},
-//            {entityGregorian.initializeEntityGregorian(new GregorianCalendar()), entityGregorian.getObject()},
-//            {entityProxyDate.initializeEntityProxyDate(new ProxyManagerImpl().newDateProxy(Date.class)), entityProxyDate.getObject()},
-//            {entityList.initializeEntityList(r.nextInt()), entityList.getObject()}
+            {entityManageable.initializeEntityManageable(), null},
+            {entityValid.initializeEntityValid(r.nextInt(), true), entityValid.getObject()}, 
+            {entityMap.initializeEntityMap(r.nextInt(), r.nextInt(), false), entityMap.getObject()},
+            {entityGregorian.initializeEntityGregorian(new GregorianCalendar()), entityGregorian.getObject()},
+            {entityProxyDate.initializeEntityProxyDate(new ProxyManagerImpl().newDateProxy(Date.class)), entityProxyDate.getObject()},
+            {entityList.initializeEntityList(r.nextInt()), entityList.getObject()}
     	});
 
     }

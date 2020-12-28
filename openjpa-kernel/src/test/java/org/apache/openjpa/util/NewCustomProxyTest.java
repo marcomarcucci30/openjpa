@@ -79,19 +79,19 @@ public class NewCustomProxyTest {
 
             
             //line coverage
-//            {entityManageable.initializeEntityManageable(), null},
-//            {entityDate.initializeEntityDate(new Date()), entityDate.getObject()},
-//            {entityMap.initializeEntityMap(r.nextInt(), r.nextInt(), notSortedMap), entityMap.getObject()},
-//            {entityGregorian.initializeEntityGregorian(new GregorianCalendar()), entityGregorian.getObject()},
-//            {entityProxyDate.initializeEntityProxyDate(new ProxyManagerImpl().newDateProxy(Date.class)), entityProxyDate.getObject()},
-//            {entityTimestamp.initializeEntityTimestamp(new Timestamp(initNanos), initNanos), entityTimestamp.getObject()},
-//            {entityFinal.initializeEntityFinal(), null},
-//
-//                        
-//            //branch coverage
-//            {entitySortedMap.initializeEntityMap(r.nextInt(), r.nextInt(), sortedMap), entitySortedMap.getObject()},
-//            {entitySortedSet.initializeSortedSet(r.nextInt()), entitySortedSet.getObject()},
-//            {entityValid.initializeEntityValid(r.nextInt(), proxyable), entityValid.getObject()}, 
+            {entityManageable.initializeEntityManageable(), null},
+            {entityDate.initializeEntityDate(new Date()), entityDate.getObject()},
+            {entityMap.initializeEntityMap(r.nextInt(), r.nextInt(), notSortedMap), entityMap.getObject()},
+            {entityGregorian.initializeEntityGregorian(new GregorianCalendar()), entityGregorian.getObject()},
+            {entityProxyDate.initializeEntityProxyDate(new ProxyManagerImpl().newDateProxy(Date.class)), entityProxyDate.getObject()},
+            {entityTimestamp.initializeEntityTimestamp(new Timestamp(initNanos), initNanos), entityTimestamp.getObject()},
+            {entityFinal.initializeEntityFinal(), null},
+
+                        
+            //branch coverage
+            {entitySortedMap.initializeEntityMap(r.nextInt(), r.nextInt(), sortedMap), entitySortedMap.getObject()},
+            {entitySortedSet.initializeSortedSet(r.nextInt()), entitySortedSet.getObject()},
+            {entityValid.initializeEntityValid(r.nextInt(), proxyable), entityValid.getObject()}, 
             
     	});
 
