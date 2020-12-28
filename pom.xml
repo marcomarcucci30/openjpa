@@ -97,7 +97,7 @@
         <xbean.version>4.17</xbean.version>
         <bval.version>1.1.2</bval.version>
         <jmock.version>2.9.0</jmock.version>
-        <sonar.projectKey>marcomarcucci30_openjpa</sonar.projectKey>
+        <sonar.projectKey>marcomarcucci30:${project.groupId}:${project.artifactId}</sonar.projectKey>
         <sonar.links.homepage>https://github.com/marcomarcucci30/openjpa</sonar.links.homepage>
         <sonar.links.ci>https://travis-ci.org/marcomarcucci30/openjpa</sonar.links.ci>
         <sonar.links.scm>https://github.com/marcomarcucci30/openjpa</sonar.links.scm>
