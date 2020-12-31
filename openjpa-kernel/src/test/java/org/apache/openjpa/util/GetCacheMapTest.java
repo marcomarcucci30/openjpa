@@ -93,6 +93,7 @@ public class GetCacheMapTest {
 			Assert.assertNull(cacheMap.softMap.get(entity.getKey()));
 		}
 		verify(this.cacheMap).readUnlock();
+		verify(this.cacheMap).readLock();
     }
 	
 
