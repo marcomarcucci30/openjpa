@@ -51,7 +51,7 @@ public class RemoveCacheMapTest {
     	/*MUTATION TESTING:
     	 * -Line 457: mutation equivalent (NO Weak mutation, Strong mutation)  --> Forse è anche weak 
     	 *  
-    	 *   */
+    	 */
     	
     	Object objValue = new Object();
     	
@@ -65,7 +65,6 @@ public class RemoveCacheMapTest {
       		 {new CacheMapEntity(new Object(), objValue, true, true), objValue, 0},
       		 {new CacheMapEntity(null, objValue, true, false), objValue, 0},
            });
-
 
     }
 

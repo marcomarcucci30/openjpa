@@ -43,7 +43,6 @@ public class CopyArrayTest {
         	
         	//suite minimale
         	{entityNull.initializeEntityNull(null) , null},
-        	// TODO guarda il todo di copyCustomTest
         	{entityNonValid.initializeEntityNonValid(), UnsupportedException.class}, 
             {entityList.initializeEntityArray(r.nextFloat()), entityList.getObject()}
     	});

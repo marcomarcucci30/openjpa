@@ -84,12 +84,8 @@ public class GetCacheMapTest {
 				
 		Assert.assertEquals(this.expectedResult, result);
 		
-		
-		//TODO inserire il nuovo test nel pom
-		//TODO togli Badua
 		//for mutation
 		if (this.entity.getNumObjectToInsert() != 0) {
-			/*Controllo che */
 			Assert.assertNull(cacheMap.softMap.get(entity.getKey()));
 		}
 		verify(this.cacheMap).readUnlock();

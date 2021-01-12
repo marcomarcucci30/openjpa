@@ -86,8 +86,7 @@ public class NewCustomProxyTest {
             {entityProxyDate.initializeEntityProxyDate(new ProxyManagerImpl().newDateProxy(Date.class)), entityProxyDate.getObject()},
             {entityTimestamp.initializeEntityTimestamp(new Timestamp(initNanos), initNanos), entityTimestamp.getObject()},
             {entityFinal.initializeEntityFinal(), null},
-
-                        
+ 
             //branch coverage
             {entitySortedMap.initializeEntityMap(r.nextInt(), r.nextInt(), sortedMap), entitySortedMap.getObject()},
             {entitySortedSet.initializeSortedSet(r.nextInt()), entitySortedSet.getObject()},
@@ -110,7 +109,6 @@ public class NewCustomProxyTest {
         Object result = this.proxyManager.newCustomProxy(this.entity.getObject(), this.entity.isAutoOff());
         Assert.assertEquals(this.expectedResult, result);
         
-        //TODO Perché non funziona per il mutation testing??
         if (this.entity.getObject() instanceof Timestamp)
         	verify((Timestamp) this.entity.getObject()).getNanos();
         

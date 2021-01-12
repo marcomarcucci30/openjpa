@@ -56,7 +56,7 @@ public class PutCacheMapTest {
     	/*MUTATION TESTING:
     	 * 
     	 * -Line 404: mutation equivalent (Weak mutation, Strong mutation) 
-    	 *     	 * */
+    	 */
     	
     	Object objValue = new Object();
 
@@ -108,7 +108,6 @@ public class PutCacheMapTest {
         if (this.entity.getCacheMaxMapSize() != 0)
         	verify(this.cacheMap).entryAdded(entity.getKey(), entity.getValue()); 
        
-        //TODO gestire entryadded ed entry removed
         if (this.entity.isAlreadyExist() && this.entity.getValue()!= null)
         	verify(this.cacheMap).entryRemoved(entity.getKey(), entity.getValue(), false);
 

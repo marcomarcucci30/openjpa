@@ -60,7 +60,7 @@ public class ProxyManagerImplEntity {
         return this;
 	}
 	
-	public ProxyManagerImplEntity initializeGenricObject(Object object) {
+	public ProxyManagerImplEntity initializeGenericObject(Object object) {
         this.object = object;
         return this;
     }
